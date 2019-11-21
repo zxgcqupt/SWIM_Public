@@ -8,7 +8,7 @@ This repository is used to show the detailed procedures in the development of Ba
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+The following packages need to be installed to run this program
 
 ```
 tensorflow
@@ -28,5 +28,3 @@ pickle
 * The research reported in this paper was supported by funds from NASA University Leadership Initiative program (Grant No. NNX17AJ86A, Technical Monitor: Dr. Kai Goebel) through subcontract to Arizona State University (Principal Investigator: Dr. Yongming Liu). 
 * The support of FAA and Harris Corporation in accessing the SWIM data is appreciated. 
 * This work was conducted in part using the resources of the Advanced Computing Center for Research and Education (ACCRE) at Vanderbilt University, Nashville, TN. The support is gratefully acknowledged.
-* Inspiration
-* etc
