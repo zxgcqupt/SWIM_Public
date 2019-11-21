@@ -4,84 +4,29 @@ In this project, we build two Bayesian neural networks to predict the trajectory
 
 ## Getting Started
 
-This repository is used to show the detailed procedures in the development of deep learning models, where the flight AA598 is used as an illustrative example. The trajectory of flight AA598 has been preprocessed to remove anamous data, and the missing data has been imputed with linear interpolation. 
+This repository is used to show the detailed procedures in the development of Bayesian deep learning models, where the flight AA598 is used as an illustrative example. The trajectory of flight AA598 has been preprocessed to remove anamous data, and the missing data has been imputed with linear interpolation. The trajectory of flight AA598 is saved as a pickle file, and named as "AAL598_2018-12-19-2019-02-08.pkl".
 
 ### Prerequisites
 
 What things you need to install the software and how to install them
 
 ```
-Give examples
+tensorflow
+keras
+sklearn
+pytorch 
+matplotlib
+numpy
+math
+copy
+pandas
+pickle
 ```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
+* The research reported in this paper was supported by funds from NASA University Leadership Initiative program (Grant No. NNX17AJ86A, Technical Monitor: Dr. Kai Goebel) through subcontract to Arizona State University (Principal Investigator: Dr. Yongming Liu). 
+* The support of FAA and Harris Corporation in accessing the SWIM data is appreciated. 
+* This work was conducted in part using the resources of the Advanced Computing Center for Research and Education (ACCRE) at Vanderbilt University, Nashville, TN. The support is gratefully acknowledged.
 * Inspiration
 * etc
