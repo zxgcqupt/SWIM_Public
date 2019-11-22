@@ -5,7 +5,7 @@ In this project, we build two Bayesian neural networks to predict the trajectory
 ## Getting Started
 
 * This repository is used to show the detailed procedures in the development of Bayesian deep learning models, where flight AA598 is used as an illustrative example. 
-* We proprecess the trajectory data of flight AA598 to remove anomalous positions, and impute the missing data with linear interpolation. The trajectory of flight AA598 from 19th December, 2018 to 8th February, 2019 is saved as a pickle file named as "AAL598_2018-12-19-2019-02-08.pkl" in the repository (Note: the trajectory over some days are missing).
+* We proprecess the trajectory data of flight AA598 to remove anomalous positions, and impute the missing data with linear interpolation. The trajectory of the flight AA598 from 19th December, 2018 to 8th February, 2019 is saved as a pickle file named as "AAL598_2018-12-19-2019-02-08.pkl" in the repository (Note: the trajectory over some days are missing).
 * Leave-one-out cross-validation is performed to check the performance of the trained models.
 
 ### Prerequisites
