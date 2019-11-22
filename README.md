@@ -1,6 +1,6 @@
 # Flight Trajectory Prediction with the System-Wide Information Management (SWIM) Data
 
-In this project, we build two Bayesian neural networks to predict the trajectory of an ongoing flight. The first model is built with feedforward neural network with the goal to predict its trajectory deviation from the filed flight plan, while the second model is built with the Long-Short Term Memory (LSTM) neural network to make longer-term prediction on flight trajectory. The two models are combined together to achieve high prediction accuracy and longer-term prediction capability. The uncertainty in both models is characterized following a Bayesian approach and implemented through Monte Carlo (MC) dropout. 
+In this project, we build two Bayesian neural networks to predict the trajectory of an ongoing flight. The first model is built with a feedforward neural network with the goal to predict the trajectory deviation from the filed flight plan, while the second model is built with the Long-Short Term Memory (LSTM) neural network to make longer-term prediction on the flight trajectory. The two models are combined together to achieve high prediction accuracy and longer-term prediction capability. The uncertainty in both models is characterized following a Bayesian approach and implemented through Monte Carlo (MC) dropout. 
 
 ## Getting Started
 
